@@ -12,4 +12,5 @@ GemExpo::Application.configure do
   config.i18n.fallbacks = true
   config.active_support.deprecation = :notify
   config.log_formatter = ::Logger::Formatter.new
+  config.assets.precompile += %w(application.css gemexpo.css)
 end
