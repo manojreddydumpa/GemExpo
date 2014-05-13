@@ -31,6 +31,6 @@ group :test do
   gem 'rspec', '~> 2.14.1'
 end
 
-group :production do
+group :production, :staging do
   gem 'rails_12factor'
 end
