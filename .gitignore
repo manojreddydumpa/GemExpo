@@ -10,7 +10,6 @@
 /tmp/
 .rspec
 .project
-/config/initializers/secret_token.rb
 /log
 
 ## Specific to RubyMotion:
