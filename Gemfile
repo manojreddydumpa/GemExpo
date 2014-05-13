@@ -30,3 +30,8 @@ group :test do
 # Use rspec for testing
   gem 'rspec', '~> 2.14.1'
 end
+
+group :production, :staging do
+  gem 'rails_12factor'
+  gem 'pg'
+end
