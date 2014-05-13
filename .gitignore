@@ -10,6 +10,7 @@
 /tmp/
 .rspec
 .project
+/log
 
 ## Specific to RubyMotion:
 .dat*
